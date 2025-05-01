@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shakthi - Devloper Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(4, 4, 43);
+
+      }
+      .right ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+      }
+      .right ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      .right ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      .right ul li a:hover {
+        font-size: 1.04rem;
+        color: #b888e6;
+      }
+      .left {
+        font-size: 1.4rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 120px 0;
+      }
+      .firstSection > div {
+        width: 35%;
+      }
+      .leftSection {
+        font-family: "Poppins", sans-serif;
+        font-size: 3rem;
+      }
+      .leftSection .btn{
+        background-color: rgb(0, 0, 33);
+        color: white;
+        padding: 12px;
+        border: 2px solid white;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+      .leftSection .buttons{
+        padding: 50px 0;
+      }
+      .rightSection img {
+        /* background-color: red; */
+        width: 70%;
+      }
+      .purple {
+        color: rgb(170, 107, 228);
+      }
+      .text-gray {
+        color: rgb(170, 107, 228);
+      }
+      #element {
+        color: rgb(170, 107, 228);
+      }
+      main hr {
+        border: 0;
+        background-color: rgb(91, 91, 204);
+        height: 1.2px;
+        margin: 60px 84px;
+      }
+      .secondSection {
+        max-width: 85vw;
+        margin: auto;
+        font-family: "Poppins", sans-serif;
+        height: 80vh;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+      .secondSection .box {
+        background-color: white;
+        width: 85vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 75px;
+        width: 150px;
+        font-size: 14px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 96px;
+        color: gray;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer{
+        background-color: rgb(4, 4, 43);
+
+
+      }
+      .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+        
+      }
+      .footer ul{
+        list-style: none;
+      }
+      .footer > div{
+        width: 233px ;
+      }
+      footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0;
+      }
+    </style>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Shakthi's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, I am <span class="purple">Shakthi</span>
+          <div>and I am a Aspiring Web Developer</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit GitHub</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="./image.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experince</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img src="./developer.png" alt="" class="image-top" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum cum
+              aspernatur dignissimos libero molestiae cupiditate ratione. Dolore
+              aliquid eaque magni neque eius nostrum quo.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="./fb_logo.png" alt="" class="image-top" />
+            <div class="vertical-title">Node.js Developer (2012-2014)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum cum
+              aspernatur dignissimos libero molestiae cupiditate ratione. Dolore
+              aliquid eaque magni neque eius nostrum quo.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="./inst_logo.png" alt="" class="image-top" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum cum
+              aspernatur dignissimos libero molestiae cupiditate ratione. Dolore
+              aliquid eaque magni neque eius nostrum quo.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="./X_logo.png" alt="" class="image-top" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum cum
+              aspernatur dignissimos libero molestiae cupiditate ratione. Dolore
+              aliquid eaque magni neque eius nostrum quo.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="./youtube_logo.png" alt="" class="image-top" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum cum
+              aspernatur dignissimos libero molestiae cupiditate ratione. Dolore
+              aliquid eaque magni neque eius nostrum quo.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="./html _logo.png" alt="" class="image-top" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum cum
+              aspernatur dignissimos libero molestiae cupiditate ratione. Dolore
+              aliquid eaque magni neque eius nostrum quo.
+            </div>
+          </div>
+     
+        </div>
+      </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+              <h3>Shakthi's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+              <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+            <div class="footer-third">
+              <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+            <div class="footer-fourth">
+              <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+          Copyrights &#169 shakthi'sportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Entrepreneur", "Pilot"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
